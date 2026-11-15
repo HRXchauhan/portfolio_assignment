@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <circle cx="200" cy="200" r="190" fill="url(#avatarGrad)" filter="url(#shadow)"/>
+  <!-- Head & Shoulders Silhouette / Tech avatar -->
+  <circle cx="200" cy="150" r="65" fill="#FFFFFF" opacity="0.95"/>
+  <path d="M100 320 C100 240, 150 220, 200 220 C250 220, 300 240, 300 320 Z" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Code glasses or badge -->
+  <rect x="160" y="140" width="30" height="18" rx="4" fill="#312E81"/>
+  <rect x="210" y="140" width="30" height="18" rx="4" fill="#312E81"/>
+  <line x1="190" y1="149" x2="210" y2="149" stroke="#312E81" stroke-width="4"/>
+  <!-- Decorative Tech elements -->
+  <text x="200" y="360" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="20" fill="#FFFFFF" text-anchor="middle">&lt; Harsh / Developer &gt;</text>
+</svg>
